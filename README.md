@@ -2,7 +2,7 @@
 
 ## Architecture
 
-The application was created by create-react-app with typescript template.
+The application was created by create-react-app (The unused boilerplate code and png etc.. are left intact even though they are not used) with typescript template.
 Eslint and prettier are configured, although some linting rules are turned off.
 The Table displays nested data with collapsible rows and the components are named after the data they contain as follows:
 
