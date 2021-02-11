@@ -9,8 +9,9 @@ The Table displays nested data with collapsible rows and the components are name
 - MainTable and MainRow
 - RelativeTable and RelativeRow
 - PhoneTable
-  Rows can be deleted on each level and parent's collapse option is removed if all children get deleted from the corresponding sub table.
-  Rows and setRows are provided to the children components by using context through a custom hook to avoid passing props at row deletion.
+
+Rows can be deleted on each level and parent's collapse option is removed if all children get deleted from the corresponding sub table.
+Rows and setRows are provided to the children components by using context through a custom hook to avoid passing props at row deletion.
 
 Some basic test cases (not full coverage) are implemented with react-testing-library
 
@@ -22,7 +23,7 @@ Some basic test cases (not full coverage) are implemented with react-testing-lib
 ### Run the app
 
 cd into table-app:
-
+- npm i
 - npm start
 
 ### Test the app
